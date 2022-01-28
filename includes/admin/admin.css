@@ -1,0 +1,83 @@
+/* CSS Document */
+body
+{
+	background-color: #ebeef4;
+}
+h3
+{
+	margin:0;
+	padding-bottom:20px;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 30px;
+	text-align:center;
+}
+.card
+{
+	background:white;
+	margin:20px 30px;	
+	border:solid 1px #CCCCCC;
+	border-radius:5px;
+	box-sizing:border-box;	
+	display:block;	
+	padding:20px 20px 10px 20px;
+}
+.rest_form_group
+{
+	display:block;
+	margin:0 30px 5px 0;
+}
+.rest_form_group label
+{
+	font-weight:600;
+}
+.form-group
+{
+	display:inline-block;
+	width:46%;
+	margin:0 30px 20px 0;
+	padding:2px;	
+}
+.form-group label
+{
+	font-weight:600;
+}
+.check-type
+{
+	display:inline-block;
+	padding:10px;
+	padding-right:15px;
+}
+.form-check-input
+{
+	width:20px;
+}
+input[type='text'],input[type='integer'], select
+{
+	border: 1px solid #dedede;
+	height: 40px;
+	padding: 0 10px;
+	width: 100%;
+	color: #000;
+}
+input[type='file']
+{
+	padding:10px;
+}
+.btn
+{
+	cursor: pointer;
+	border: none;
+	background: #E0E1E2;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 3px;
+	width: 97%;
+	padding:10px;
+	background-color: #099E44;
+	color: #FFF;
+	font-size: 18px;
+	margin-top:5px;
+}
+
